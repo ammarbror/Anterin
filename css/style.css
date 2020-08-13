@@ -96,30 +96,60 @@ h2 span {
 }
 
 .team-wrapper{
-    border: 1px solid red;
     background-color: #E23E57;
-    padding: 0 80px
+    padding: 16px 80px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .team-wrapper h2{
     color: #ffffff;
 }
+
 .team-wrapper h3{
     display:block;
     font-size: 36px;
     color: #ffffff;
     font-weight: lighter;
 }
+
 .team-wrapper ul{
-    list-style: none;
+    list-style-type: none;
     overflow:hidden;
 }
+
 .team-wrapper li{
     width: 24%;
     text-align: center;
     display:inline-block;
 }
+
 .team-wrapper img{
     width: 75%;
     height: auto;
 }
+
+@media(max-width: 750px) {
+    .team-wrapper ul{
+        padding-left: 0px;
+    }
+
+    .team-wrapper h2{
+        text-align: center;
+    }
+
+    .team-wrapper h3{
+        font-size: 32px;
+    }
+
+    .team-wrapper li{
+        width: 49%;
+    }   
+}
+
+@media(max-width: 550px) {
+    .team-wrapper li{
+        width: 100%;
+    }    
+}
+
