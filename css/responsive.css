@@ -1,0 +1,23 @@
+@media(max-width: 750px) {
+    .team-wrapper ul{
+        padding-left: 0px;
+    }
+
+    .team-wrapper h2{
+        text-align: center;
+    }
+
+    .team-wrapper h3{
+        font-size: 32px;
+    }
+
+    .team-wrapper li{
+        width: 49%;
+    }   
+}
+
+@media(max-width: 550px) {
+    .team-wrapper li{
+        width: 100%;
+    }    
+}
