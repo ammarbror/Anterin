@@ -2,12 +2,6 @@
     box-sizing: border-box;
 }
 
-@media(max-width: 500px) {
-    .element-wrapper {
-        width:100%;
-    }
-} 
-
 body {
     font-family: 'Poppins';
 }
@@ -68,7 +62,7 @@ body {
 }
 
 
-  .top-text {
+.top-text {
       float: right;
       margin: 0 auto;
   }
@@ -76,6 +70,7 @@ body {
 .main-wrapper {
     padding: 30px 80px
 }
+
 h2 {
     display:block;
     font-size: 46px;
@@ -120,6 +115,7 @@ h2 span {
     display:inline-block;
     left: 200px;
     top: 45px;
+    padding-left:40px;
     font-size: 40px;
     font-weight: bold;
 }
