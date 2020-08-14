@@ -10,27 +10,32 @@ body {
     background-color: #ffffff;
     color: #fff;
     height: 90px;
-    padding-right: 30px;
+    padding: 30px 80px;
   }
   
   .header-logo {
     float: left;
-    font-size: 36px;
-    padding: 20px 40px;
+    font-size: 28px;
     color: #E23E57;
+    font-weight: 700;
   }
-  
-  .header-list li {
+
+  .header-logo span {
+      color: #311D3F;
+  }
+
+  .header-list a {
     float: right;
-    padding: 33px 20px;
-    list-style: none;
+    margin-right: 35px;
+    text-decoration: none;
     color: #E23E57;
+    font-weight: 500;
   }
 
   .top-wrapper {
       width: 100%;
-      display: inline-block;
-      padding-right: 50px;
+      display: flex;
+      padding: 0px 80px;
   }
   .top-wrapper img{
       width: 500px;
@@ -61,11 +66,18 @@ body {
     cursor: pointer;
 }
 
-
 .top-text {
-      float: right;
-      margin: 0 auto;
-  }
+    margin-left: 60px;
+}
+
+.top-text h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 75px;
+}
+.top-text span {
+    color: #E23E57;
+}
 
 .main-wrapper {
     padding: 30px 80px
@@ -131,14 +143,30 @@ h2 span {
 .btn {
     text-align: center;
     display: block;
-    width: 222px;
-    padding: 12px 24px;
     color: #ffffff;
     opacity: 0.8;
     border-radius: 4px;
+    text-decoration: none;
 }
 
+.hayuuu {
+    background-color: #E23E57;
+    width: 222px;
+    height: 72px;
+    line-height: 72px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.hayuuu:hover {
+    background-color: #ffffff;
+    border: 5px solid #E23E57;
+    line-height: 62px;
+    color: #E23E57;
+}
 .submit {
+    width: 222px;
+    padding: 12px 24px;
     margin-top: 40px;
     font-size: 32px;
     background-color: #E23E57;
@@ -147,7 +175,7 @@ h2 span {
     box-shadow: 0 7px #9e2b3c;
 }
 
-.btn:active {
+.submit:active {
     box-shadow:none;
     position:relative;
     top:7px;
